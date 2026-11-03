@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, Helvetica, sans-serif, serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: rgb(10, 10, 10);
+}
+
+header {width: 200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border: none;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    padding: 15px;
+    border: none;
+}
+
+nav a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    margin: 15px;
+}
+
+
+        section {
+            padding: 40px 10%;
+        }
+
+        h1, h2, h3 {
+            color: rgb(179, 55, 55);
+        }
+
+        .caixa {
+            border: 1px solid black;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .projetos {
+            display: flex;
+            gap: 20px;
+        }
+
+        .projeto {
+            border: 1px solid black;
+            padding: 20px;
+            flex: 1;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            border-top: 1px solid black;
+        }
+
+        @media (max-width: 600px) {
+            .projetos {
+                flex-direction: column;
+            }
+
+            nav a {
+                margin: 5px;
+            }
+        }
+
+    /* MOBILE */
+@media (max-width: 600px) {
+
+    #inicio > div {
+        flex-direction: column !important;
+        text-align: center;
+    }
+
+    #inicio img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+
+    section[id="vários projetos"] img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #projetos > div > div {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    #contacto form {
+        flex-direction: column;
+        align-items: stretch !important;
+    }
+
+    #contacto input {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+/* RESPONSIVIDADE MOBILE */
+        @media (max-width: 600px) {
+            .projetos {
+                flex-direction: column;
+            }
+
+            nav a {
+                margin: 5px;
+            }
+        }
+
+    /* MOBILE */
+@media (max-width: 600px) {
+
+    #inicio > div {
+        flex-direction: column !important;
+        text-align: center;
+    }
+
+    #inicio img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+
+    section[id="vários projetos"] img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #projetos > div > div {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    #contacto form {
+        flex-direction: column;
+        align-items: stretch !important;
+    }
+
+    #contacto input {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
